@@ -14,6 +14,14 @@
 		A08716671C82D5CD00C5240A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08716661C82D5CD00C5240A /* Images.xcassets */; };
 		A087166A1C82D5CD00C5240A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08716681C82D5CD00C5240A /* LaunchScreen.xib */; };
 		A08716761C82D5CD00C5240A /* kamisamaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A08716751C82D5CD00C5240A /* kamisamaTests.m */; };
+		A08716841C82D6EC00C5240A /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08716821C82D6EC00C5240A /* TopViewController.m */; };
+		A08716851C82D6EC00C5240A /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08716831C82D6EC00C5240A /* TopViewController.xib */; };
+		A08716891C82D80D00C5240A /* InputInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08716871C82D80D00C5240A /* InputInfoViewController.m */; };
+		A087168A1C82D80D00C5240A /* InputInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08716881C82D80D00C5240A /* InputInfoViewController.xib */; };
+		A087168D1C82D86200C5240A /* InputInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A087168C1C82D86200C5240A /* InputInfoModel.m */; };
+		A08716911C82D91D00C5240A /* InformationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A08716901C82D91D00C5240A /* InformationItem.m */; };
+		A08716961C82DEF100C5240A /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08716941C82DEF100C5240A /* ResultViewController.m */; };
+		A08716971C82DEF100C5240A /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08716951C82DEF100C5240A /* ResultViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,19 @@
 		A087166F1C82D5CD00C5240A /* kamisamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kamisamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08716741C82D5CD00C5240A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A08716751C82D5CD00C5240A /* kamisamaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kamisamaTests.m; sourceTree = "<group>"; };
+		A08716811C82D6EC00C5240A /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopViewController.h; path = ViewController/TopViewController.h; sourceTree = "<group>"; };
+		A08716821C82D6EC00C5240A /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopViewController.m; path = ViewController/TopViewController.m; sourceTree = "<group>"; };
+		A08716831C82D6EC00C5240A /* TopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TopViewController.xib; path = ViewController/TopViewController.xib; sourceTree = "<group>"; };
+		A08716861C82D80D00C5240A /* InputInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputInfoViewController.h; path = ViewController/InputInfoViewController.h; sourceTree = "<group>"; };
+		A08716871C82D80D00C5240A /* InputInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputInfoViewController.m; path = ViewController/InputInfoViewController.m; sourceTree = "<group>"; };
+		A08716881C82D80D00C5240A /* InputInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InputInfoViewController.xib; path = ViewController/InputInfoViewController.xib; sourceTree = "<group>"; };
+		A087168B1C82D86200C5240A /* InputInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputInfoModel.h; path = ViewModel/InputInfoModel.h; sourceTree = "<group>"; };
+		A087168C1C82D86200C5240A /* InputInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputInfoModel.m; path = ViewModel/InputInfoModel.m; sourceTree = "<group>"; };
+		A087168F1C82D91D00C5240A /* InformationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InformationItem.h; path = Object/InformationItem.h; sourceTree = "<group>"; };
+		A08716901C82D91D00C5240A /* InformationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InformationItem.m; path = Object/InformationItem.m; sourceTree = "<group>"; };
+		A08716931C82DEF100C5240A /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultViewController.h; path = ViewController/ResultViewController.h; sourceTree = "<group>"; };
+		A08716941C82DEF100C5240A /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultViewController.m; path = ViewController/ResultViewController.m; sourceTree = "<group>"; };
+		A08716951C82DEF100C5240A /* ResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultViewController.xib; path = ViewController/ResultViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +102,9 @@
 		A08716581C82D5CD00C5240A /* kamisama */ = {
 			isa = PBXGroup;
 			children = (
+				A087168E1C82D90400C5240A /* Object */,
+				A08716801C82D68300C5240A /* ViewModel */,
+				A087167F1C82D67800C5240A /* ViewController */,
 				A087165D1C82D5CD00C5240A /* AppDelegate.h */,
 				A087165E1C82D5CD00C5240A /* AppDelegate.m */,
 				A08716601C82D5CD00C5240A /* ViewController.h */,
@@ -117,6 +141,40 @@
 				A08716741C82D5CD00C5240A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A087167F1C82D67800C5240A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A08716811C82D6EC00C5240A /* TopViewController.h */,
+				A08716821C82D6EC00C5240A /* TopViewController.m */,
+				A08716831C82D6EC00C5240A /* TopViewController.xib */,
+				A08716861C82D80D00C5240A /* InputInfoViewController.h */,
+				A08716871C82D80D00C5240A /* InputInfoViewController.m */,
+				A08716881C82D80D00C5240A /* InputInfoViewController.xib */,
+				A08716931C82DEF100C5240A /* ResultViewController.h */,
+				A08716941C82DEF100C5240A /* ResultViewController.m */,
+				A08716951C82DEF100C5240A /* ResultViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		A08716801C82D68300C5240A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A087168B1C82D86200C5240A /* InputInfoModel.h */,
+				A087168C1C82D86200C5240A /* InputInfoModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		A087168E1C82D90400C5240A /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				A087168F1C82D91D00C5240A /* InformationItem.h */,
+				A08716901C82D91D00C5240A /* InformationItem.m */,
+			);
+			name = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A087168A1C82D80D00C5240A /* InputInfoViewController.xib in Resources */,
+				A08716971C82DEF100C5240A /* ResultViewController.xib in Resources */,
+				A08716851C82D6EC00C5240A /* TopViewController.xib in Resources */,
 				A08716651C82D5CD00C5240A /* Main.storyboard in Resources */,
 				A087166A1C82D5CD00C5240A /* LaunchScreen.xib in Resources */,
 				A08716671C82D5CD00C5240A /* Images.xcassets in Resources */,
@@ -219,9 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08716911C82D91D00C5240A /* InformationItem.m in Sources */,
+				A08716841C82D6EC00C5240A /* TopViewController.m in Sources */,
 				A08716621C82D5CD00C5240A /* ViewController.m in Sources */,
+				A08716891C82D80D00C5240A /* InputInfoViewController.m in Sources */,
 				A087165F1C82D5CD00C5240A /* AppDelegate.m in Sources */,
+				A087168D1C82D86200C5240A /* InputInfoModel.m in Sources */,
 				A087165C1C82D5CD00C5240A /* main.m in Sources */,
+				A08716961C82DEF100C5240A /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
