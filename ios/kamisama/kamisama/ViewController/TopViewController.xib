@@ -14,31 +14,34 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_normal" translatesAutoresizingMaskIntoConstraints="NO" id="0C1-2c-8hZ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="676"/>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cT5-10-KYH">
-                    <rect key="frame" x="164" y="319" width="46" height="30"/>
-                    <state key="normal" title="開始">
+                    <rect key="frame" x="118" y="301" width="152" height="48"/>
+                    <state key="normal" backgroundImage="button_start_off">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="onStartButton:" destination="-1" eventType="touchUpInside" id="cne-j7-0AP"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6Q-bX-9FD">
-                    <rect key="frame" x="164" y="357" width="46" height="30"/>
-                    <state key="normal" title="履歴">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="onHistoryButton:" destination="-1" eventType="touchUpInside" id="eWD-yR-vFr"/>
-                    </connections>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cg1-W0-nJV">
-                    <rect key="frame" x="143" y="395" width="88" height="30"/>
-                    <state key="normal" title="おぷしょん">
+                    <rect key="frame" x="118" y="472" width="152" height="48"/>
+                    <state key="normal" backgroundImage="button_option_off">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="onOptionButton:" destination="-1" eventType="touchUpInside" id="YoD-dw-q0J"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6Q-bX-9FD">
+                    <rect key="frame" x="118" y="390" width="152" height="48"/>
+                    <state key="normal" backgroundImage="button_history">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onHistoryButton:" destination="-1" eventType="touchUpInside" id="eWD-yR-vFr"/>
                     </connections>
                 </button>
             </subviews>
@@ -47,4 +50,10 @@
             <point key="canvasLocation" x="304.5" y="424.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="bg_normal" width="320" height="568"/>
+        <image name="button_history" width="152" height="48"/>
+        <image name="button_option_off" width="152" height="48"/>
+        <image name="button_start_off" width="152" height="48"/>
+    </resources>
 </document>
